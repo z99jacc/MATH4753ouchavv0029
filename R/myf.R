@@ -1,5 +1,5 @@
 #' Square Function
-#' Takes vector and returns a vector of squared components
+#' Takes vector and returns a vector of squared components. Hopefully it works
 #'
 #' @param x
 #'
