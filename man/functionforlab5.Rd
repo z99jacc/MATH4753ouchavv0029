@@ -16,5 +16,5 @@ vector plus 95
 adds 95 to a vector
 }
 \examples{
-x=1, functionforlab5(1)
+x=c(1,2,3,4), functionforlab5(x)
 }

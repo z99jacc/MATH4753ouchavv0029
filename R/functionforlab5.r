@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' x=1, functionforlab5(1)
+#' x=c(1,2,3,4), functionforlab5(x)
 functionforlab5 = function(x){
   x+95
 }

@@ -1,0 +1,49 @@
+---
+title: "R Package Demo"
+author: "Javier A Chaves Camargo"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+# Introduction
+
+This is a demonstration of the incredible functions that can be found in my package.
+
+
+# First function
+
+
+```{r first}
+x=c(1,2,3,5)
+MATH4753ouchavv0029::Abc(x)
+```
+
+# Second function
+
+
+```{r second}
+x=c(1,2,3,5)
+MATH4753ouchavv0029::functionforlab5(x)
+```
+
+
+# Third function
+
+```{r third, eval = FALSE}
+MATH4753ouchavv0029::mybin(51,7,0.8)
+```
+
+
+# Forth function
+
+```{r forth, eval = FALSE}
+x=c(1,2,3,5)
+MATH4753ouchavv0029::myci(x)
+```
+
+# The github repository
+
+<https://github.com/z99jacc/MATH4753ouchavv0029.git>

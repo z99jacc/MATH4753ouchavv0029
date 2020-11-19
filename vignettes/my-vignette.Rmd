@@ -1,0 +1,61 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753ouchavv0029)
+```
+
+
+# Introduction
+
+This is the vignette of my R package.
+
+
+# First function
+
+functionforlab5()
+
+Function for lab 5
+
+Adds 95 to any vector variable
+
+# Second function
+
+mybin()
+
+Binomial
+
+Builds a graph for a binomial distribution
+
+# Third function
+
+Abc()
+
+The official name of this function is Useless function
+
+Takes vector and returns vector plus 3
+
+# Forth function
+
+myci()
+
+My Confidence interval
+
+Finds 95% confidence interval for mean of sample d
+
+# The github repository
+
+<https://github.com/z99jacc/MATH4753ouchavv0029.git>
