@@ -3,7 +3,7 @@
 \name{myf}
 \alias{myf}
 \title{Square Function
-Takes vector and returns a vector of squared components}
+Takes vector and returns a vector of squared components plus 1.}
 \usage{
 myf(x)
 }
@@ -11,11 +11,11 @@ myf(x)
 \item{x}{}
 }
 \value{
-a vector of squared components
+a vector of squared components plus one
 }
 \description{
 Square Function
-Takes vector and returns a vector of squared components
+Takes vector and returns a vector of squared components plus 1.
 }
 \examples{
 x=1:30;myf(x)
